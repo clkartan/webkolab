@@ -1,0 +1,134 @@
+body{
+    margin: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image: url(bg5.jpeg);
+}
+header img{
+    height: 80px;
+}
+nav{
+    margin-top: 10px;
+}
+nav a{
+    text-decoration: none;
+    color: #562F00;
+    font-size: 25px;
+    padding: 5px 15px;
+    font-family: 'Bodoni Moda SC';
+    &:hover{
+        color: #254F22;
+    }
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    height: 80px;
+    box-shadow: 0px 0px 5px;
+    background-color: #FFCE99;
+    width: 100%;
+    position: fixed;
+}
+nav{
+    padding: 10px;
+}
+.home{
+    height: 800px;
+    padding-top: 70px;
+    text-align: left;
+}
+.deskripsihome{
+    width: 40%;
+    margin-left: 30px;
+    & h1{
+        color: #EDF7BD;
+    }
+    & h3{
+        color: #F3E3D0;
+    }
+    & p{
+        color: #EEFABD;
+    }
+    font-size: 30px;
+}
+.project{
+    height: 800px;
+    padding-top: 30px;
+    text-align: center;
+}
+.deskproject{
+    width: 100%;
+    margin: auto;
+    background-color: #F3E3D0;
+    padding: 15px;
+    width: 700px;
+    margin: auto;
+    & h3{
+        color: black;
+    }
+    & p{
+        color: blueviolet;
+    }
+}
+.howto{
+    height: 800px;
+    padding-top: 100px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.howto img{
+    height: 500px;
+}
+.deskhwoto{
+    display: flex;
+    width: 40%;
+    margin: auto;
+}
+.dokumentasi{
+    margin: 20px;
+}
+.profile{
+    padding-top: 100px;
+}
+.cardprofile{
+    background-color: cadetblue;
+    padding: 15px;
+    width: 300px;
+    margin: auto;
+    text-align: center;
+    height:550px;
+    padding-top: 20px;
+}
+.imgprofile img{
+    width: 100%;
+}
+.medsos{
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    height: 40px;
+    padding-top: 5px;
+}
+.medsos a{
+    text-decoration: none;
+    padding: 10px 10px;
+    font-size: 24px;
+}
+.h1.judulhome{
+    font-size: 90px;
+}
+.h3.project{
+    font-size: 90px;
+}
+section.about{
+    height: 800px;
+    text-align: left;
+}
+section.profile{
+    height: 800px;
+    text-align: center;
+}
