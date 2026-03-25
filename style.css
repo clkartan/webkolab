@@ -1,3 +1,6 @@
+html{
+    scroll-behavior: smooth;
+}
 body{
     margin: 0;
     background-size: cover;
@@ -6,7 +9,7 @@ body{
     background-image: url(bg5.jpeg);
 }
 header img{
-    height: 80px;
+    height: 60px;
 }
 nav{
     margin-top: 10px;
@@ -25,7 +28,7 @@ header{
     display: flex;
     justify-content: space-between;
     text-align: center;
-    height: 80px;
+    height: 65px;
     box-shadow: 0px 0px 5px;
     background-color: #FFCE99;
     width: 100%;
@@ -40,70 +43,94 @@ nav{
     text-align: left;
 }
 .deskripsihome{
-    width: 40%;
+    width: 60%;
     margin-left: 30px;
     & h1{
         color: #EDF7BD;
+        font-size: 100px;
     }
     & h3{
         color: #F3E3D0;
+        font-size: 50px;
     }
     & p{
         color: #EEFABD;
+        font-size: 35px;
     }
     font-size: 30px;
 }
 .project{
     height: 800px;
-    padding-top: 30px;
+    padding-top: 90px;
     text-align: center;
 }
 .deskproject{
     width: 100%;
     margin: auto;
-    background-color: #F3E3D0;
+    background-color: #C08552;
     padding: 15px;
     width: 700px;
-    margin: auto;
-    & h3{
-        color: black;
+    border-radius: 30px;
+    & h2{
+        color: #FFF799;
+        font-size: 30px;
     }
     & p{
-        color: blueviolet;
+        color: #FFF8F0;
+        font-size: 20px;
     }
 }
+.imgproject img{
+    height: 400px;
+}
 .howto{
-    height: 800px;
-    padding-top: 100px;
+    scroll-margin-top: 119px;
+    height: auto;
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
+    background-color: #A03A13;
+    padding: 15px;
+    width: 700px;
+    margin: auto;
+    border-radius: 30px;
 }
 .howto img{
-    height: 500px;
+    height: 350px;
+    border-radius: 20px;
 }
-.deskhwoto{
-    display: flex;
-    width: 40%;
+.deskhowto{
     margin: auto;
 }
+.penjelasan{
+    & h2{
+        color: #EDE4C2;
+        text-align: center;
+    }
+}
 .dokumentasi{
-    margin: 20px;
+    margin: 30px;
+    text-align: center;
 }
 .profile{
     padding-top: 100px;
 }
 .cardprofile{
-    background-color: cadetblue;
+    background-color: #4B2E2B;
     padding: 15px;
     width: 300px;
     margin: auto;
     text-align: center;
-    height:550px;
+    height:630px;
     padding-top: 20px;
+    border-radius: 20px;
+}
+.deskprofile{
+    color: #EED9B9;
 }
 .imgprofile img{
     width: 100%;
+    border-radius: 20px;
 }
 .medsos{
     left: 0;
@@ -117,6 +144,10 @@ nav{
     text-decoration: none;
     padding: 10px 10px;
     font-size: 24px;
+    color: #FF9644;
+    &:hover{
+        color: #FFCE99;
+    }
 }
 .h1.judulhome{
     font-size: 90px;
